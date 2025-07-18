@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>散歩カウンセリング | INSIDE SHIFT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Noto Sans JP', 'Hiragino Sans', 'Meiryo', sans-serif;
+      background: #f2fbfd;
+      color: #234;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 36px auto;
+      background: #fff;
+      border-radius: 22px;
+      box-shadow: 0 6px 32px #b9e2ef28;
+      padding: 44px 20px 54px 20px;
+    }
+    .banner {
+      width: 100%;
+      max-width: 520px;
+      margin: 0 auto 24px auto;
+      display: block;
+      border-radius: 16px;
+      box-shadow: 0 2px 12px #a4daf35e;
+    }
+    h1 {
+      color: #289ddb;
+      font-size: 2.1em;
+      margin-top: 0.2em;
+      margin-bottom: 0.5em;
+      letter-spacing: 0.02em;
+      text-align: center;
+    }
+    h2 {
+      margin-top: 2.2em;
+      color: #257387;
+      font-size: 1.25em;
+      letter-spacing: 0.01em;
+      border-left: 6px solid #7ed9ff80;
+      padding-left: 0.55em;
+      background: #e9f8fd;
+      border-radius: 8px;
+    }
+    p, li {
+      font-size: 1.12em;
+      line-height: 1.8;
+      margin-bottom: 0.5em;
+    }
+    ul {
+      margin-bottom: 1.5em;
+    }
+    .btn {
+      margin-top: 2.5em;
+      display: inline-block;
+      background: #289ddb;
+      color: #fff;
+      padding: 14px 38px;
+      border-radius: 30px;
+      font-size: 1.1em;
+      text-decoration: none;
+      box-shadow: 0 2px 12px #92d3ee4a;
+      letter-spacing: 0.03em;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: #197eb0;
+    }
+    @media (max-width: 700px) {
+      .container {
+        max-width: 99vw;
+        border-radius: 12px;
+        padding: 7vw 3vw 12vw 3vw;
+      }
+      .banner {
+        max-width: 96vw;
+      }
+      h1 { font-size: 1.25em; }
+      h2 { font-size: 1.07em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://insideshift.github.io/file_00000000eb3c622fbceea4a55cec26af%20(3).png" alt="散歩カウンセリングバナー" class="banner">
+    <h1>散歩カウンセリング</h1>
+    <p>
+      公園や川沿いなど、自然の中を歩きながら、リラックスした雰囲気で悩み相談や雑談ができる<br>
+      INSIDE SHIFTの新しいカウンセリングメニューです。
+    </p>
+
+    <h2>こんな方におすすめ</h2>
+    <ul>
+      <li>部屋でのカウンセリングが苦手な方</li>
+      <li>緊張しやすい方、話すことに抵抗がある方</li>
+      <li>自然の中で気分転換したい方</li>
+      <li>日常を忘れて心をリセットしたい方</li>
+      <li>ちょっとした雑談や人生相談も大歓迎</li>
+    </ul>
+
+    <h2>サービス内容・流れ</h2>
+    <ul>
+      <li>事前にご希望の日時・場所（公園や川沿い等）をご相談</li>
+      <li>集合後、ゆっくり歩きながらカウンセリング（会話なし・景色だけ楽しむもOK）</li>
+      <li>リラックスした雰囲気で、ご自身のペースで話せます</li>
+      <li>歩きながらの「雑談」「人生相談」「気持ちの整理」など何でもOK</li>
+    </ul>
+
+    <h2>料金・メニュー例</h2>
+    <ul>
+      <li>60分　7,000円（通常カウンセリングと同額）</li>
+      <li>30分　3,000円（お試し・体験向け）</li>
+      <li>ペア（ご家族・ご友人と2人）もご相談ください</li>
+    </ul>
+    <p>コース時間や集合場所はご要望に応じて調整できます。</p>
+
+    <h2>お申込み・ご予約方法</h2>
+    <p>
+      お問い合わせフォーム、LINE、またはメールより<br>
+      「散歩カウンセリング希望」とご連絡ください。<br>
+      日時やご希望の場所について折り返しご案内いたします。
+    </p>
+
+    <a href="index.html" class="btn">トップページへ戻る</a>
+  </div>
+</body>
+</html>
