@@ -2,21 +2,73 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>法人向けご依頼 | INSIDE SHIFT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>法人向けご依頼</title>
   <style>
-    body { font-family: sans-serif; background: #f7fbff; color: #0a2540; text-align: center; padding: 3rem 1rem;}
-    h1 { font-size: 1.6rem; margin-bottom: 2em; }
-    .button { background: #0a2540; color: #fff; padding: 1rem 2.5rem; border: none; border-radius: 28px; font-size: 1.1rem; margin: 1.5em 1em; text-decoration: none; }
-    .button:hover { background: #125ca0; }
+    body {
+      font-family: sans-serif;
+      background: #f8fcff;
+      color: #0a2540;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+    .center-box {
+      max-width: 400px;
+      margin: 48px auto 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(80,150,200,0.07);
+      padding: 2.2rem 1.2rem 2.3rem 1.2rem;
+      text-align: center;
+    }
+    h1, h2 {
+      font-size: 1.4rem;
+      margin-bottom: 1.6em;
+      font-weight: bold;
+      letter-spacing: 0.04em;
+    }
+    .main-btn {
+      display: inline-block;
+      background: #125ca0;
+      color: #fff;
+      font-size: 1.12rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 25px;
+      padding: 1.1em 2em;
+      margin: 1.1em 0 1.7em 0;
+      text-decoration: none;
+      transition: background 0.2s;
+      box-shadow: 0 2px 12px rgba(10, 37, 64, 0.11);
+    }
+    .main-btn:hover {
+      background: #0a2540;
+    }
+    .notice {
+      color: #666;
+      font-size: 1em;
+      margin-top: 1.5em;
+      line-height: 1.7;
+      text-align: left;
+    }
+    @media (max-width: 540px) {
+      .center-box { max-width: 98vw; padding: 1.2rem 0.3rem 1.3rem 0.3rem; }
+      h1, h2 { font-size: 1.1rem; }
+      .main-btn { font-size: 0.98rem; }
+    }
   </style>
 </head>
 <body>
-  <h1>法人向けご依頼</h1>
-  <p>下記よりご依頼フォームにお進みください。</p>
-  <a href="https://ws.formzu.net/dist/S660788945/" class="button" target="_blank">法人向けご依頼フォーム</a>
-  <p style="margin-top:2em;color:#666;font-size:0.93em;">
-    ※初回相談は「60分まで無料」です。<br>
-    ※具体的なご要望・課題などはフォーム内でご記入ください。
-  </p>
+  <div class="center-box">
+    <h2>法人向けご依頼</h2>
+    <div>下記よりご依頼フォームにお進みください。</div>
+    <a href="https://ws.formzu.net/dist/S660788945/" class="main-btn" target="_blank">法人向けご依頼フォーム</a>
+    <div class="notice">
+      ※初回相談は「30分まで無料」です。<br>
+      ※具体的なご要望・課題などはフォーム内でご記入ください。<br>
+      ※お見積り・詳細案内はヒアリング後、メールでご連絡いたします。
+    </div>
+  </div>
 </body>
 </html>
