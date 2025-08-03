@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>INSIDE SHIFT | 寄り添う、導く。</title>
+  <title>INSIDE SHIFT | 組織も人も変わる心理サポート</title>
   <style>
     body {
       font-family: sans-serif;
@@ -16,175 +16,206 @@
       background: #fff;
       padding: 1rem;
       text-align: center;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.08);
     }
     .logo {
       font-size: 2rem;
       font-weight: bold;
       color: #0a2540;
+      letter-spacing: 0.04em;
     }
     .tagline {
       font-size: 1rem;
       color: #0a2540;
+      margin-bottom: 0.5rem;
     }
+    /* ▼ヒーローセクション（トップ画像＋キャッチ） */
     .hero {
-      background: #f0f8ff;
-      padding: 4rem 1rem;
+      background: url('images/top-wave.png') center/cover no-repeat;
+      padding: 6rem 1rem 4rem 1rem;
       text-align: center;
-    }
-    .hero h1 {
-      font-size: 2rem;
-      color: #0a2540;
-    }
-    .hero p {
-      font-size: 1.2rem;
-      margin-top: 1rem;
-    }
-    .buttons {
-      margin-top: 2rem;
+      position: relative;
+      min-height: 420px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 1rem;
+      justify-content: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #125ca0;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.4em;
+      text-shadow: 0 2px 8px rgba(255,255,255,0.5);
+    }
+    .hero .sub {
+      font-size: 1.25rem;
+      margin-bottom: 1.6em;
+      color: #0a2540;
+      font-weight: 500;
+      text-shadow: 0 2px 8px rgba(255,255,255,0.4);
+    }
+    .hero .catch {
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: #0a2540;
+      margin-bottom: 2.5em;
+      line-height: 1.7;
+      text-shadow: 0 2px 8px rgba(255,255,255,0.25);
     }
     .button {
       background: #0a2540;
       color: white;
-      padding: 0.8rem 1.5rem;
+      padding: 0.95rem 2.5rem;
       border: none;
-      border-radius: 5px;
+      border-radius: 28px;
       cursor: pointer;
       text-decoration: none;
-      width: 90%;
-      max-width: 320px;
-      font-size: 1rem;
-      text-align: center;
+      font-size: 1.15rem;
+      font-weight: bold;
+      letter-spacing: 0.06em;
+      box-shadow: 0 2px 12px rgba(10, 37, 64, 0.13);
+      transition: background 0.2s;
+      display: inline-block;
+    }
+    .button:hover {
+      background: #125ca0;
     }
     .section {
       padding: 2rem 1rem;
-      background: white;
-      margin: 1rem 0;
-      border-radius: 8px;
+      background: #fff;
+      margin: 1.5rem 0;
+      border-radius: 12px;
+      max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 2px 10px rgba(80, 150, 200, 0.08);
     }
     .section h2 {
       font-size: 1.5rem;
-      color: #0a2540;
+      color: #125ca0;
+      margin-top: 0;
+    }
+    .section h3 {
+      margin-top: 1.6em;
+      color: #165;
+      font-size: 1.1rem;
     }
     .footer {
-      padding: 2rem 1rem;
+      padding: 2rem 1rem 1rem 1rem;
       text-align: center;
-      font-size: 0.8rem;
+      font-size: 0.88rem;
       color: #555;
+      background: transparent;
     }
     a {
       color: #0a2540;
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 2.2rem; }
+      .hero .catch { font-size: 1.05rem; }
+      .hero { padding: 3.5rem 0.5rem 2.5rem 0.5rem; min-height: 300px; }
+      .section { padding: 1.2rem 0.3rem; }
     }
   </style>
 </head>
 <body>
   <header>
-    <div class="logo">🐇 INSIDE SHIFT</div>
-    <div class="tagline">寄り添う、導く。</div>
+    <div class="logo">INSIDE SHIFT</div>
+    <div class="tagline">心理カウンセリング × 組織心理支援</div>
   </header>
 
+  <!-- ▼トップ・ヒーロー画像＋キャッチエリア -->
   <section class="hero">
-    <h1>心理カウンセリングと組織支援で、人と組織に変化を。</h1>
-    <p>心理学を活用したカウンセリングと組織づくりを提供しています。</p>
-    <div class="buttons">
-      <a href="https://ws.formzu.net/dist/S42383750/" class="button" target="_blank">🧠 カウンセリング予約フォーム</a>
-      <a href="https://ws.formzu.net/dist/S660788945/" class="button" target="_blank">🏢 法人向けご依頼フォーム</a>
-      <a href="https://ws.formzu.net/dist/S159873004/" class="button" target="_blank">✉️ お問い合わせフォーム</a>
+    <h1>INSIDE SHIFT</h1>
+    <div class="sub">メンタリスト 松島隼人</div>
+    <div class="catch">
+      その現場に、朝の光が差し込む――<br>
+      変化に挑戦した組織が、今、増えています。
     </div>
+    <a href="https://ws.formzu.net/dist/S42383750/" class="button" target="_blank">無料相談はこちら</a>
   </section>
 
-<a href="https://insideshift.github.io/sanpo-counseling.html" target="_blank">
-  <img src="https://insideshift.github.io/file_00000000eb3c622fbceea4a55cec26af%20(3).png"
-       alt="散歩カウンセリング バナー画像"
-       style="max-width:100%; height:auto; display:block; margin:32px auto; border-radius:16px; box-shadow:0 4px 16px rgba(80,150,200,0.12);">
-</a>
-  
+  <a href="https://insideshift.github.io/sanpo-counseling.html" target="_blank">
+    <img src="https://insideshift.github.io/file_00000000eb3c622fbceea4a55cec26af%20(3).png"
+         alt="散歩カウンセリング バナー画像"
+         style="max-width:100%; height:auto; display:block; margin:32px auto; border-radius:16px; box-shadow:0 4px 16px rgba(80,150,200,0.12);">
+  </a>
+
   <section class="section">
     <h2>サービス概要</h2>
     <p>個人のお客様には心理カウンセリング、法人様には組織心理支援・人材育成を提供しています。</p>
   </section>
 
-<section class="section">
-  <h2>料金表</h2>
+  <section class="section">
+    <h2>料金表</h2>
+    <h3>【個人向け】</h3>
+    <ul>
+      <li>お試しカウンセリング（30分）：<strong>4,000円</strong></li>
+      <li>単発セッション（60分）：<strong>8,000円</strong></li>
+      <li>継続セッション（3回）：<strong>22,000円</strong></li>
+    </ul>
+    <h3>【法人向け】</h3>
+    <ul>
+      <li>育成セッション（1時間）：<strong>15,000円</strong></li>
+      <li>訪問型セッション（半日）：<strong>60,000円</strong></li>
+      <li>顧問契約（月額）：<strong>100,000円</strong></li>
+      <li>組織コンサル（1回）：<strong>50,000円</strong></li>
+    </ul>
+    <h3>【モニター・体験募集（期間限定）】</h3>
+    <ul>
+      <li>個人モニターセッション（60分）：<strong>5,000円</strong></li>
+      <li>法人モニターセッション（1時間）：<strong>10,000円</strong></li>
+      <li>顧問契約モニター（1ヶ月）：<strong>50,000円</strong></li>
+    </ul>
+    <p>
+      <small>
+        ※上記価格はすべて税込・事前予約制です。<br>
+        ※モニター価格は期間・人数限定です。ご希望の方はお問い合わせください。
+      </small>
+    </p>
+  </section>
 
-  <h3>【個人向け】</h3>
-  <ul>
-    <li>お試しカウンセリング（30分）：<strong>4,000円</strong></li>
-    <li>単発セッション（60分）：<strong>8,000円</strong></li>
-    <li>継続セッション（3回）：<strong>22,000円</strong></li>
-  </ul>
+  <section class="section">
+    <h2>ご支援実績</h2>
+    <div class="case">
+      <h3>🌱 個人カウンセリング</h3>
+      <p>年間 <strong>100件以上</strong> の心理カウンセリング実績。<br>
+      不安・自己肯定感・対人関係などの悩みに寄り添い、多くの方が前向きな変化を実感されています。</p>
+    </div>
+    <div class="case">
+      <h3>🏢 法人向け組織支援</h3>
+      <p>中小企業を中心に <strong>20社以上</strong> に対して組織心理支援を提供。<br>
+      離職率の改善やチームビルディング、マネジメント層の育成支援を実施しています。</p>
+    </div>
+    <div class="case">
+      <h3>🎤 セミナー・講演活動</h3>
+      <p>心理学を活用したセルフマネジメントやコミュニケーションをテーマに、<strong>年間5回以上</strong> 登壇。<br>
+      高校・大学・企業など幅広い場面で講演を行っています。</p>
+    </div>
+  </section>
 
-  <h3>【法人向け】</h3>
-  <ul>
-    <li>育成セッション（1時間）：<strong>15,000円</strong></li>
-    <li>訪問型セッション（半日）：<strong>60,000円</strong></li>
-    <li>顧問契約（月額）：<strong>100,000円</strong></li>
-    <li>組織コンサル（1回）：<strong>50,000円</strong></li>
-  </ul>
+  <section class="section">
+    <h2>📌 事例紹介</h2>
+    <h3>▶ 事例①：自己否定からの回復</h3>
+    <p>
+      30代女性。人間関係や仕事への自己否定感が強く、不安が続く状態でご相談。<br>
+      8回のカウンセリングで「自分への信頼」と「安心できる対話の習慣」が身につき、転職後も安定して生活を送られています。
+    </p>
+    <h3>▶ 事例②：チームの空中分解を防ぐ</h3>
+    <p>
+      IT企業の開発チーム。対立やコミュニケーションの断絶により、プロジェクト進行に支障が発生。<br>
+      組織心理支援とチームビルディングを3ヶ月実施し、離職者ゼロ・業績20％改善を実現。
+    </p>
+    <h3>▶ 事例③：学校法人での研修</h3>
+    <p>
+      高校・大学にて教職員対象に「感情とモチベーションマネジメント」研修を実施。<br>
+      アンケートでは「現場で即実践できる」「自分のストレスにも気づけた」と高評価を得ました。
+    </p>
+  </section>
 
-  <h3>【モニター・体験募集（期間限定）】</h3>
-  <ul>
-    <li>個人モニターセッション（60分）：<strong>5,000円</strong></li>
-    <li>法人モニターセッション（1時間）：<strong>10,000円</strong></li>
-    <li>顧問契約モニター（1ヶ月）：<strong>50,000円</strong></li>
-  </ul>
-
-  <p>
-    <small>
-      ※上記価格はすべて税込・事前予約制です。<br>
-      ※モニター価格は期間・人数限定です。ご希望の方はお問い合わせください。
-    </small>
-  </p>
-</section>
-  
- <section class="section">
-  <h2>ご支援実績</h2>
-
-  <div class="case">
-    <h3>🌱 個人カウンセリング</h3>
-    <p>年間 <strong>100件以上</strong> の心理カウンセリング実績。<br>
-    不安・自己肯定感・対人関係などの悩みに寄り添い、多くの方が前向きな変化を実感されています。</p>
-  </div>
-
-  <div class="case">
-    <h3>🏢 法人向け組織支援</h3>
-    <p>中小企業を中心に <strong>20社以上</strong> に対して組織心理支援を提供。<br>
-    離職率の改善やチームビルディング、マネジメント層の育成支援を実施しています。</p>
-  </div>
-
-  <div class="case">
-    <h3>🎤 セミナー・講演活動</h3>
-    <p>心理学を活用したセルフマネジメントやコミュニケーションをテーマに、<strong>年間5回以上</strong> 登壇。<br>
-    高校・大学・企業など幅広い場面で講演を行っています。</p>
-  </div>
-
-   <section class="section">
-  <h2>📌 事例紹介</h2>
-
-  <h3>▶ 事例①：自己否定からの回復</h3>
-  <p>
-    30代女性。人間関係や仕事への自己否定感が強く、不安が続く状態でご相談。<br>
-    8回のカウンセリングで「自分への信頼」と「安心できる対話の習慣」が身につき、転職後も安定して生活を送られています。
-  </p>
-
-  <h3>▶ 事例②：チームの空中分解を防ぐ</h3>
-  <p>
-    IT企業の開発チーム。対立やコミュニケーションの断絶により、プロジェクト進行に支障が発生。<br>
-    組織心理支援とチームビルディングを3ヶ月実施し、離職者ゼロ・業績20％改善を実現。
-  </p>
-
-  <h3>▶ 事例③：学校法人での研修</h3>
-  <p>
-    高校・大学にて教職員対象に「感情とモチベーションマネジメント」研修を実施。<br>
-    アンケートでは「現場で即実践できる」「自分のストレスにも気づけた」と高評価を得ました。
-  </p>
- 
-   </section>
- </section>
   <section class="section">
     <h2>ご予約・お問い合わせ</h2>
     <p>上記の各フォームより、お気軽にご連絡ください。</p>
