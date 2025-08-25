@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>運営概要 | INSIDE SHIFT</title>
+  <meta name="description" content="INSIDE SHIFTの運営概要ページです。連絡先・所在地などの基本情報を掲載しています。">
+  <style>
+    body { font-family: sans-serif; background:#e6f2f9; color:#0a2540; margin:0; }
+    .wrap { max-width:720px; margin:2rem auto; background:#fff; padding:1.5rem; border-radius:12px; }
+    h1 { font-size:1.8rem; color:#125ca0; margin-top:0; }
+    pre { white-space:pre-wrap; font-family:inherit; line-height:1.8; }
+    .footer { text-align:center; padding:2rem 1rem 1rem; color:#555; }
+    a { color:#0a2540; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>運営概要</h1>
+    <pre>
+【運営概要】
+
+名称：INSIDE SHIFT
+代表：松島 隼人
+所在地：〒150-0045 東京都渋谷区神泉町10-15
+電話：050-xxxx-xxxx
+メール：insideshift0@gmail.com
+
+事業内容：
+・コーチング / カウンセリング
+・組織改革支援 / 人材育成
+・研修・セミナー企画運営
+    </pre>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 INSIDE SHIFT ｜ <a href="/about.html">運営概要</a>
+  </div>
+</body>
+</html>
