@@ -111,6 +111,19 @@
         max-width: 97vw;
       }
     }
+
+    .research-intro { margin-top: 0; }
+    .research-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1.4rem 0; }
+    .research-stat { background: #f7fbfe; border-left: 4px solid #8fc8e8; border-radius: 10px; padding: 1.2rem; }
+    .research-stat p { margin: 0; }
+    .research-number { display: block; font-size: 2.8rem; line-height: 1.2; font-weight: 700; color: #125ca0; }
+    .research-label { display: block; margin-top: .5rem; font-weight: 700; color: #0a2540; }
+    .research-note { font-size: .92rem; color: #555; line-height: 1.8; }
+    .research-note a { color: #125ca0; text-underline-offset: .2em; overflow-wrap: anywhere; }
+    .research-message { padding: 1rem; border-left: 4px solid #8fc8e8; background: #f7fbfe; border-radius: 10px; color: #0a2540; }
+    @media (max-width: 520px) {
+      .research-stats { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
@@ -139,7 +152,35 @@
       <li>離職や停滞の原因を整理したい</li>
     </ul>
 
-    <h3>ご相談内容に応じて対応しています</h3>
+
+  </section>
+
+  <section class="section" aria-labelledby="research-heading">
+    <h2 id="research-heading">経験を否定しない。経験だけに頼らない。</h2>
+    <p class="research-intro">現場で培われた経験や判断力は、組織にとって大切な財産です。<br>
+      しかし、勘や経験則だけに頼ったマネジメントには限界があります。</p>
+    <p>行動科学や組織心理学の研究では、働く環境やマネジメントのあり方と、従業員の行動・組織の成果との関係が明らかになっています。</p>
+
+    <h3>科学的研究が示す、組織づくりの重要性</h3>
+    <div class="research-stats">
+      <div class="research-stat">
+        <p><span class="research-number">23%</span><span class="research-label">高い収益性</span></p>
+      </div>
+      <div class="research-stat">
+        <p><span class="research-number">51%</span><span class="research-label">低い離職率</span></p>
+        <p class="research-note">年間離職率40%以下の組織群</p>
+      </div>
+    </div>
+    <p>Gallupの2024年メタ分析では、従業員エンゲージメントが高い職場と低い職場の間に、これらの差が報告されています。</p>
+    <p class="research-note">出典：<a href="https://www.gallup.com/file/workplace/645380/Q12%202024%20Q12%20Meta-Analysis.pdf">Gallup（2024）Q12 Meta-Analysis, 11th Edition（PDF）</a></p>
+    <p class="research-note">注：数値はエンゲージメント上位25%と下位25%の職場間の比較（差の中央値）。離職率51%は年間離職率40%以下の組織群での差。INSIDE SHIFTのサービス導入による改善率を示すものではありません。</p>
+
+    <p>INSIDE SHIFTは、現場経験と科学的知見を組み合わせ、AIによる分析も活用しながら、人材育成・管理職支援・組織改善を行います。</p>
+    <p class="research-message"><strong>個人の頑張りに依存する組織から、成果につながる行動が継続する組織へ。</strong></p>
+  </section>
+
+  <section class="section">
+    <h2>ご相談内容に応じて対応しています</h2>
 
     <div class="menu-block">
       <strong>現場課題を整理したい</strong><br>
